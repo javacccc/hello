@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:weightSum="10"
+    android:background="@color/rightmaincolor"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:text="消息中心:"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:layout_marginLeft="5sp"
+        android:textSize="@dimen/x20"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.3"
+        android:layout_marginLeft="60sp"
+        android:id="@+id/listviewformessage">
+    </ListView>
+
+</LinearLayout>

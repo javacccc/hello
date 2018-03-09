@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--文字-->
+    <string name="app_name">班牌程序</string>
+    <!--文字大小-->
+    <dimen name="x10">10sp</dimen>
+    <dimen name="x15">15sp</dimen>
+    <dimen name="x20">20sp</dimen>
+    <dimen name="x25">25sp</dimen>
+    <dimen name="x30">30sp</dimen>
+    <dimen name="x35">35sp</dimen>
+    <dimen name="x40">40sp</dimen>
+    <dimen name="x45">45sp</dimen>
+</resources>
+

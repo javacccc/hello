@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginRight="100sp"
+    android:orientation="vertical"
+    android:weightSum="10"
+     >
+        <TextView
+        android:id="@+id/lesson"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:ems="1"
+        android:text="课程"
+        android:background="@color/rightlipressd"
+        android:textSize="@dimen/x20"/>
+    <TextView
+        android:id="@+id/message"
+         android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:ems="1"
+        android:singleLine="false"
+        android:text="消息"
+        android:textColor="@color/white"
+        android:background="@color/rightliunpressd"
+        android:textSize="@dimen/x20" />
+    <TextView
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="课表"
+        android:ems="1"
+        android:textColor="@color/white"
+        android:background="@color/rightliunpressd"
+        android:textSize="@dimen/x20" />
+    </LinearLayout>

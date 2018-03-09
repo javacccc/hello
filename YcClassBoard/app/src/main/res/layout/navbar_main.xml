@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/tapcolor">
+
+    <LinearLayout
+        android:id="@+id/id_switch_tab_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        >
+        <LinearLayout
+            android:id="@+id/first_ll"
+            android:layout_width="200sp"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip"
+            android:background="@color/taplicolor">
+
+            <TextView
+                android:id="@+id/first_fg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="动态信息"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second_ll"
+            android:layout_width="200sp"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip"
+            android:saveEnabled="false"
+            android:background="@color/taplicolor">
+
+            <TextView
+                android:id="@+id/second_fg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="实验设备"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/third_ll"
+            android:layout_width="200sp"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip"
+            android:background="@color/taplicolor">
+
+            <TextView
+                android:id="@+id/third_fg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="绩效报表"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fourth_ll"
+            android:layout_width="200sp"
+            android:layout_height="70sp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip"
+            android:background="@color/taplicolor">
+
+            <TextView
+                android:id="@+id/fourth_fg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="实验预约"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="200sp"-->
+            <!--android:layout_height="70sp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:focusable="false"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dip"-->
+            <!--android:background="@drawable/taplicolor">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="实验项目"-->
+                <!--android:textColor="@drawable/white"-->
+                <!--android:textSize="20sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="200sp"-->
+            <!--android:layout_height="70sp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:focusable="false"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dip"-->
+            <!--android:background="@drawable/taplicolor">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="开放服务"-->
+                <!--android:textColor="@drawable/white"-->
+                <!--android:textSize="20sp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="200sp"-->
+            <!--android:layout_height="70sp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:focusable="false"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dip"-->
+            <!--android:background="@drawable/taplicolor">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="维修服务"-->
+                <!--android:textColor="@drawable/white"-->
+                <!--android:textSize="20sp" />-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/id_tab_line_iv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="tab"
+        >
+    </ImageView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+</LinearLayout>

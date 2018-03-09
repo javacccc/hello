@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/maincolor">
+    <!--上方状态栏与返回按钮的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+    <ImageButton
+        android:id="@+id/im_bt_back"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="0.499"
+        android:src="@drawable/back"
+        android:scaleType="fitXY"
+        android:background="@color/taplicolor"
+        />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.01"
+            android:background="@color/white"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="9.5"
+        android:background="@color/taplicolor"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="UASB上流式厌氧发酵柱实验设备操作手册"
+        android:textColor="@color/white"
+        android:textSize="@dimen/x30"/>
+    </LinearLayout>
+<!--详细信息的布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <!--左侧图片与实验室简介的布局-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:weightSum="10"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:src="@drawable/a305_1"
+                android:layout_marginTop="60dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="30dp"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:layout_marginLeft="100dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/x20"
+                android:textColor="@color/white"
+                android:text="设备名称：UASB上流式厌氧发酵柱实验设备(自动控制)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/x20"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:text="设备来源：上海同广科教仪器有限公司"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:textSize="@dimen/x20"
+                android:textColor="@color/white"
+                android:gravity="top"
+                android:text="设备简介：厌氧生物处理技术不仅用于有机污泥、高浓度有机废水，而且还能够处理低浓度污水，与好氧生物处理技术相比较，厌氧生物处理具有有机物负荷高、污泥产量低、能耗低等一系列明显的优点。升流式厌氧污泥床(UASB)是厌氧生物处理的一种主要构筑物，它集厌氧生物反应与沉淀分离于一体，有机负荷和去除效率高，不需要搅拌设备。"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!--右侧操作手册的布局-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="60dp"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/x25"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:text="UASB上流式厌氧发酵柱实验设备的操作手册:"/>
+            <!--<com.lidong.pdf.PDFView-->
+                <!--android:id="@+id/pdfView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--/>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:textSize="@dimen/x20"
+                android:textColor="@color/white"
+                android:text="  产品型号:
+    TG-271
+    产品描述：
+    厌氧生物处理技术不仅用于有机污泥、高浓度有机废水，而且还能够处理低浓度污水，与好氧生物处理技术相比较，厌氧生物处理具有有机物负荷高、污泥产量低、能耗低等一系列明显的优点。升流式厌氧污泥床(UASB)是厌氧生物处理的一种主要构筑物，它集厌氧生物反应与沉淀分离于一体，有机负荷和去除效率高，不需要搅拌设备。本模型是升流式厌氧污泥床的教学实验设备。通过本实验希望达到以下目的：
+    1、了解UASB的内部构造；
+    2、掌握UASB的启动方法，颗粒污泥的形成机理；
+    3、就某种污水进行动态试验，以确定工艺参数和处理水的水质。
+主要参数及配置：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、数显：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、数显：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、数显：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、数显：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、数显：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、数显：上海同广科教仪器有限公司
+处理水量：2～5L/h、圆柱体直径为Φ150mm×2000mm。设备外形尺寸：900×500×2300 mm电源 220V单相三线制  功率800W、配置：厌氧柱1套，上部为三相分离器1组，其上有进水阀、排泥阀、出水阀、气阀等。配套有不锈钢加热恒温水浴1套、数字温度控制仪1台、温度控制系统1套、数显数显计量泵1台、循环水泵1台、沼气流量计1台、可编程自动控制1套、取样口5只、废水水箱1只、电控箱1只、漏电保护开关、按钮开关、连接管道和球阀、带移动轮子不锈钢台架等组成。公司赠送1套与本装置配套使用3D交互式动态仿真软件(虚拟实训系统)"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

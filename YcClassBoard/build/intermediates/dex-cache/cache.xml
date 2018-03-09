@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e6e8642d01626b8367e08b1157a58210f7788003\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wxdn\.android\build-cache\1e33f6c8997f25194b7acb447a26ab952b1f0f06\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_284d97daadda3663b0778c20623beaf0684e10ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\libs\gson-1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-1.6_054d8d53887499192b15db09a2258c5af529197c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\libs\gson-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
+        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\gson-1.6_86d84d0b7ce0d7e7ada768809c74230098acf11a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="997ead85fe911ea062e5f1fca353046fa1adb601">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e8992cee68cfd8a4edcb588e67abb5eb3310b4d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\libs\glide-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\build\intermediates\pre-dexed\debug\glide-3.6.1_e2a10f44a71530279858e66c74340e1b4c914431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\libs\glide-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\glide-3.6.1_de0e5e7d76584cf915be020179b2b77d06cb3650.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wxdn\.android\build-cache\8be4450ac52a234052d63de402d14ee9e24deeea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a14276d08ab9bd45dd8c5033e4e566122e3ce44a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="21297ae2bf22a0ce81c9b59992cf0693eec45d5b">
+        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\android-support-v7-appcompat_f8ea361d26f098ad48dd38740b7607e488a9592a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wxdn\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.8.1_e89e798a28d198c4439642e103d53b32e35da075\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\libs\gson-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e420e7635e40fbef3e2cc257c702b1427962d1d">
+        <dex dex="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\build\intermediates\pre-dexed\debug\gson-1.6_f4c9acb6e42180c965e9964690ab0a256f836a80.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\libs\glide-3.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\2\glide-3.6.1_136dca293f3f4cf85bea168debce8c6f5c749df3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\build\generated\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_5fccd6b3c4f05b9b489e96ffd937a1c69d2166c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="21297ae2bf22a0ce81c9b59992cf0693eec45d5b">
+        <dex dex="F:\ClassBoardWorkSpace\Code\yccb\YcClassBoard\app\build\intermediates\pre-dexed\debug\android-support-v7-appcompat_af133ca2d273daf048d53735bb936e273fe22a98.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\wxdn\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_cc55a0c81ab2e6347ca4c67714b231f7a032fa40\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\build\generated\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="C:\Users\wxdn\Desktop\CsdnDemo1\Serial_Demo\app\build\intermediates\pre-dexed\debug\android-support-v4_5fccd6b3c4f05b9b489e96ffd937a1c69d2166c4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\libs\android-support-v7-appcompat.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="21297ae2bf22a0ce81c9b59992cf0693eec45d5b">
+        <dex dex="F:\ClassBoardWorkSpace\testdemo\Test22\YcClassBoard\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-appcompat_6cad443ddaf71fd2bb9bf5bcd67589fed7755efb\classes.dex" />
+    </item>
+
+</items>

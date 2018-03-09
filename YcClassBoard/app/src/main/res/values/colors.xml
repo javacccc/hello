@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--颜色-->
+    <color name="white">#FFFFFF</color>
+    <color name="rightliunpressd" id="rightliunpressd">#254161</color>
+    <color name="rightlipressd" id="rightlipressd">#0f2740</color>
+    <color name="dark">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#efeff4</color>
+    <color name="maincolor">#02437e</color>
+    <color name="tapcolor">#17385e</color>
+    <color name="taplicolor">#1b739e</color>
+    <color name="timeandweather">#fec100</color>
+    <color name="choosecolor">#346193</color>
+    <color name="reallcolor">#94b4d4</color>
+    <color name="queqingcolor">#f9c500</color>
+    <color name="rightmaincolor">#17385e</color>
+    <color name="teachername">#d8fd37</color>
+    <color name="blue">#0000FF</color>
+</resources>

@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_right_table_list.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\item_right_table_list.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic_lesson.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_dynamic_lesson.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_messagedetails.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\dialog_messagedetails.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_labroom.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_choose_labroom.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_right_lesson_list.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\item_right_lesson_list.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic_table.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_dynamic_table.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_labroom_device_horizal.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\item_labroom_device_horizal.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_loading.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navbar_dynamic.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\navbar_dynamic.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_labreport.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_labreport.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_right_message_list.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\item_right_message_list.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_labroom_device_horizal_inner.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\item_labroom_device_horizal_inner.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_devices_playvideo.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_devices_playvideo.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_devices.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_devices.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serial_operate.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_serial_operate.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mediacontroller.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\vitamio\\build\\intermediates\\bundles\\default\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_devices_operation.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_devices_operation.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navbar_main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\navbar_main.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic_message.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_dynamic_message.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fourth.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\fragment_fourth.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_choose_labroom.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\item_choose_labroom.xml"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serial_main.xml",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\layout\\activity_serial_main.xml"
+    }
+]

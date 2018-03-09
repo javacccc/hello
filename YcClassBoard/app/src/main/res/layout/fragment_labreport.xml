@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_chart"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x30"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/white"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/x30"
+            android:textColor="@color/dark"
+            android:text="实验室实时人数"/>
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="2sp"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@color/blue"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:text="本学期人数"
+            android:textSize="@dimen/x30"/>
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="2sp"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@color/red"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:text="平均每周人数"
+            android:textSize="@dimen/x30"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="1700sp"
+        android:layout_height="800sp"
+        >
+
+        <!--<View-->
+            <!--android:layout_width="42dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:alpha="0.3"-->
+            <!--android:background="#FFFFFF" />-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="42dp"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:alpha="0.3"-->
+            <!--android:background="#FFFFFF" />-->
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/LinearLayoutRecDisp"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+        <TextureView
+            android:id="@+id/tv"
+            android:layout_width="500sp"
+            android:layout_height="500sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="80sp"
+                android:layout_marginTop="50sp"
+                android:layout_marginLeft="20sp"
+                android:text="卡号显示区域:"
+                android:textSize="30sp"
+                />
+            <TextView
+                android:id="@+id/editTextRecDisp"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="200sp"
+                android:textSize="30sp"
+                android:maxLines = "100000"
+                android:scrollbars = "vertical"
+                />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            />
+        <LinearLayout
+            android:id="@+id/LinearLayoutRecTool"
+            android:layout_width="200sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/ButtonClear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="清除"
+                android:textColor="@color/red"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Txt" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonHex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="16进制卡号" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="读卡次数：" />
+            <TextView
+                android:id="@+id/editTextLines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:enabled="false"
+                android:imeOptions="actionNone"
+                android:inputType="number"
+                android:longClickable="false"
+                android:text="0" >
+                <requestFocus />
+            </TextView>
+            <CheckBox
+                android:id="@+id/checkBoxAutoClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="自清" />
+            <TextView
+                android:id="@+id/TextViewCOMB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/TextViewBaudRateCOMB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+            <ToggleButton
+                android:id="@+id/ToggleButtonCOMB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton" />
+            <Button
+                android:id="@+id/ButtonforExit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="退出"
+                android:textColor="@color/red"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutCOMAB"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:id="@+id/LinearLayoutCOMB"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutTooLCOMB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100sp"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\testimg.jpeg",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-mdpi\\testimg.jpeg"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo.jpeg",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-mdpi\\logo.jpeg"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\vitamio\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\labimgdefault.jpeg",
+        "source": "F:\\ClassBoardWorkSpace\\testdemo\\Test22\\YcClassBoard\\app\\src\\main\\res\\drawable-mdpi\\labimgdefault.jpeg"
+    }
+]

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bjw.ComAssistant"
+    android:versionCode="1"
+    android:versionName="1.01" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 监听开机广播 -->
+    <receiver
+        android:name="com.bjw.MyReceiver"
+        android:enabled="true"
+        android:exported="true" >
+        <intent-filter android:priority="1000" >
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
+        </intent-filter>
+    </receiver>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.0" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.bjw.MainFragment.ChooseLabActivity"
+            android:configChanges="orientation|keyboard"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bjw.MainFragment.LoadingActivity" />
+        <activity android:name="com.bjw.ComAssistant.ComAssistantActivity" />
+        <activity
+            android:name="com.bjw.MainFragment.MainFragment"
+            android:icon="@drawable/logo" />
+        <activity android:name="com.bjw.LabDeviceInfo.LabDeviceOperateActivity" />
+        <activity android:name="com.bjw.LabDeviceInfo.LabDeviceVideoActivity" />
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name="com.bjw.Service.SerialReadService" />
+        <service android:name="com.bjw.Service.ChangeCourseService" />
+        <service android:name="com.bjw.Service.ChangeTimeService" />
+        <service android:name="com.bjw.Service.GetCourseAndCardInfoService" />
+        <service android:name="com.bjw.Service.ChangeCardInfoService" />
+        <service android:name="com.bjw.Service.CheckInternetService" />
+        <service android:name="com.bjw.Service.DownLoadService" />
+        <service android:name="com.bjw.Service.RefreshMessageService" />
+        <service android:name="com.bjw.Service.UpdateVersionService" />
+    </application>
+
+</manifest>
